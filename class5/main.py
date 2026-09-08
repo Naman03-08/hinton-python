@@ -30,3 +30,8 @@ x = 35
 y = 19
 remender = x - int(x/y) * y
 print(remender)
+
+print(35 % 19)
+print(17 % 5)
+print(20 % 4)
+print(5 % 8)
