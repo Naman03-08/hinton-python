@@ -20,8 +20,13 @@
 # age: int
 # print(age)
 
-print("Calculating the class average...")
-total = 100
-count = 0
-print(total / count)
-print("Done")
+# print("Calculating the class average...")
+# total = 100
+# count = 0
+# print(total / count)
+# print("Done")
+
+x = 35 
+y = 19
+remender = x - int(x/y) * y
+print(remender)
