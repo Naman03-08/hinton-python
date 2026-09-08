@@ -26,12 +26,18 @@
 # print(total / count)
 # print("Done")
 
-x = 35 
-y = 19
-remender = x - int(x/y) * y
-print(remender)
+# x = 35 
+# y = 19
+# remender = x - int(x/y) * y
+# print(remender)
 
-print(35 % 19)
-print(17 % 5)
-print(20 % 4)
-print(5 % 8)
+# print(35 % 19)
+# print(17 % 5)
+# print(20 % 4)
+# print(5 % 8)
+
+print(7.5 / 2)
+print(7.5 // 2)
+print(7.5 % 2)
+
+print(-2 ** -2 ** -2)
