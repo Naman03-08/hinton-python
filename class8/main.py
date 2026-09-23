@@ -20,3 +20,6 @@
 # print(math.isclose(0.1 + 0.2, 0.3)) # tolerance-based
 
 print(f"{0.1 + 0.2:.1f}")
+
+print(not 2 == 1)
+print((not 2) == 1)
