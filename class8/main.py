@@ -51,10 +51,10 @@
 # print(b)
 
 
-# print(("Naman-yash".split("-")))
-# x = (47,12, 13)
-# # ty = str(x)
-# print(x[::-1])
+print(("Naman-yash".split("-")))
+x = (47,12, 13)
+ty = str(x)
+print(x[::-1])
 
 mgs = "hello world"
 print(mgs.replace("world", "python"))
