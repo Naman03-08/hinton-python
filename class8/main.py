@@ -56,9 +56,9 @@
 # # ty = str(x)
 # print(x[::-1])
 
-# mgs = "hello world"
-# print(mgs.replace("world", "python"))
-# print(mgs.replace("l", "L"))
+mgs = "hello world"
+print(mgs.replace("world", "python"))
+print(mgs.replace("l", "L"))
 
 print(type(ord('A')))
 print(ord('a'))
