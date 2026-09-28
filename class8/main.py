@@ -30,39 +30,39 @@
 # print("hello world")
 
 
-letter = input().strip()
+# letter = input().strip()
 
-reverse = letter[::-1]
-print(reverse)
+# reverse = letter[::-1]
+# print(reverse)
 
-print(899.97/3)
+# print(899.97/3)
 
-s="programming"
-print(s[3:])
+# s="programming"
+# print(s[3:])
 
-a, b, c = map(input().split())
-print((a,b,c))
-s = ["naman", "yash", "shashwat", "alok"]
-print(s.replace(1, 2))
-b = ["naman", "yash", "shashwat", "yash" ,"alok"]
-print(b.remove("yash"))
-print(b.remove("yash"))
+# a, b, c = map(input().split())
+# print((a,b,c))
+# s = ["naman", "yash", "shashwat", "alok"]
+# print(s.replace(1, 2))
+# b = ["naman", "yash", "shashwat", "yash" ,"alok"]
+# print(b.remove("yash"))
+# print(b.remove("yash"))
 
-print(b)
+# print(b)
 
 
-print(("Naman-yash".split("-")))
-x = (47,12, 13)
-ty = str(x)
-print(x[::-1])
+# print(("Naman-yash".split("-")))
+# x = (47,12, 13)
+# ty = str(x)
+# print(x[::-1])
 
-mgs = "hello world"
-print(mgs.replace("world", "python"))
-print(mgs.replace("l", "L"))
+# mgs = "hello world"
+# print(mgs.replace("world", "python"))
+# print(mgs.replace("l", "L"))
 
-print(type(ord('A')))
-print(ord('a'))
-print(ord('0'))
-print(chr(65))
-print(chr(66))
-print(chr(97))
+# print(type(ord('A')))
+# print(ord('a'))
+# print(ord('0'))
+# print(chr(65))
+# print(chr(66))
+# print(chr(97))
