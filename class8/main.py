@@ -30,15 +30,15 @@
 # print("hello world")
 
 
-# letter = input().strip()
+letter = input().strip()
 
-# reverse = letter[::-1]
-# print(reverse)
+reverse = letter[::-1]
+print(reverse)
 
-# print(899.97/3)
+print(899.97/3)
 
-# s="programming"
-# print(s[3:])
+s="programming"
+print(s[3:])
 
 a, b, c = map(input().split())
 print((a,b,c))
