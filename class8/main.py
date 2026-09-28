@@ -40,15 +40,15 @@
 # s="programming"
 # print(s[3:])
 
-# a, b, c = map(input().split())
-# print((a,b,c))
-# s = ["naman", "yash", "shashwat", "alok"]
-# print(s.replace(1, 2))
-# b = ["naman", "yash", "shashwat", "yash" ,"alok"]
-# print(b.remove("yash"))
-# print(b.remove("yash"))
+a, b, c = map(input().split())
+print((a,b,c))
+s = ["naman", "yash", "shashwat", "alok"]
+print(s.replace(1, 2))
+b = ["naman", "yash", "shashwat", "yash" ,"alok"]
+print(b.remove("yash"))
+print(b.remove("yash"))
 
-# print(b)
+print(b)
 
 
 print(("Naman-yash".split("-")))
