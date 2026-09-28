@@ -5,3 +5,4 @@
 # print(bin(perms))
 # print(bool(perms & READ)) # can the user read?
 # print(bool(perms & EXECUTE)) # can the user execute?
+print("naman")

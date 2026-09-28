@@ -27,4 +27,42 @@
 # print(not 2 > 1 and 5 | 2 == 7) 
 
 # """ print('name')"""
-print("hello world")
+# print("hello world")
+
+
+# letter = input().strip()
+
+# reverse = letter[::-1]
+# print(reverse)
+
+# print(899.97/3)
+
+# s="programming"
+# print(s[3:])
+
+# a, b, c = map(input().split())
+# print((a,b,c))
+# s = ["naman", "yash", "shashwat", "alok"]
+# print(s.replace(1, 2))
+# b = ["naman", "yash", "shashwat", "yash" ,"alok"]
+# print(b.remove("yash"))
+# print(b.remove("yash"))
+
+# print(b)
+
+
+# print(("Naman-yash".split("-")))
+# x = (47,12, 13)
+# # ty = str(x)
+# print(x[::-1])
+
+# mgs = "hello world"
+# print(mgs.replace("world", "python"))
+# print(mgs.replace("l", "L"))
+
+# print(type(ord('A')))
+# print(ord('a'))
+# print(ord('0'))
+# print(chr(65))
+# print(chr(66))
+# print(chr(97))
