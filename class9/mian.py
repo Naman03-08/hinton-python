@@ -16,8 +16,9 @@
   
   
 num = int(input())
-if(10 <= num < 12 ):
-    print(num+5)
-elif(num >= 12):
+if(num >= 12):
     print(num+7)
-print(num)
+elif(num >= 10):
+    print(num+5)
+    
+# print(num)
