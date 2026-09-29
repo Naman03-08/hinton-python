@@ -42,8 +42,62 @@
 # else:
 #     print("nothing")
 
-year = int(input())
-if(year % 4 == 0 and not(year % 100 == 0) or (year % 400 == 0)):
-    print("leap year")
+# year = int(input())
+# if(year % 4 == 0 and not(year % 100 == 0) or (year % 400 == 0)):
+#     print("leap year")
+# else:
+#     print("not a leap year")
+    
+# year = int(input())
+# if(year % 4 == 0):
+#     print("Leap")
+# elif((year % 4 ==0) and (year % 100 != 0 or year % 400 ==0 )):
+#     print("Not Leap")
+
+# a, b, c, d = map(str ,input().split())
+# c = int(c)
+# d = float(d)
+# multiply = c*d
+# print(b, multiply.round(multiply, 2))
+
+# name = "python"
+# x = name[::-1]
+# print(x)
+
+# Q.no - 26 {python}
+
+# amount = int(input())
+
+# if (amount > 1000):
+#     print("congrats!!! you got a discount of 10%, and your final amount is:",(amount - (amount/10)))
+# else:
+#     print("there is no discount and your final price is: ",amount)
+    
+    
+# Q.no - 27 {pythoon}
+# n = int(input())
+# if( n >= 150 - 150//10):
+#     print("merit Scholarship awarded")
+# else:
+#     print("Nothing")
+    
+
+    
+    
+# Q.no - 28 {python}
+
+# scoreA, scoreB, scoreC = map(int, input().split())
+# if((scoreA + scoreB + scoreB)/3 > 80):
+#     print("Distinction Awarded")
+# elif((scoreA < 60) and (scoreB < 60) and (scoreC < 60)):
+#     print("Nothing")
+# elif((scoreA + scoreB + scoreC)/3 < 80):
+#     print("Nothing")
+
+# Q.no - 29 {python}
+
+number = int(input())
+if(number % 2 == 0):
+    print("Even")
 else:
-    print("not a leap year")
+    print("Odd")
