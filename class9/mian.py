@@ -95,9 +95,17 @@
 #     print("Nothing")
 
 # Q.no - 29 {python}
+# 
+# number = int(input())
+# if(number % 2 == 0):
+#     print("Even")
+# else:
+#     print("Odd")
 
-number = int(input())
-if(number % 2 == 0):
-    print("Even")
-else:
-    print("Odd")
+
+#Q.no - 30 {python}
+# bill = int(input())
+# if(bill <= 100):
+#     print(float(bill*1.50))
+# else:
+#     print(float(bill*2.50))
