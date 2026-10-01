@@ -125,10 +125,146 @@
 # elif(units < 300):
 #         print("Bill: Rs.",(d).round(d, 2))
 
-km = float(input())
-if(km <= 2):
-        print(50.00)
-elif(km >2):
-        print(50.00 + 15*(km - 2))
+# km = float(input())
+# if(km <= 2):
+#         print(50.00)
+# elif(km >2):
+#         print(50.00 + 15*(km - 2))
+# else:
+#         print("No trip")\
+        
+# num = int(input())
+# if(num >0):
+#         print("Positive")
+#         if(num > 100):
+#                 print("Large")
+#         if(num % 2 == 0):
+#                 print("Even")
+# else:
+#         print("nothing")
+
+# player1 = input()
+# player2 = input()
+# a = "rock"
+# b = "paper"
+# c = "scissors"
+# if(player1 == "rock" and player2 == "paper"):
+#         print("Player 2 wins")
+# elif(player1 == "rock" and player2 == "scissors"):
+#         print("Player 1 wins")
+# elif(player1 == "paper" and player2 == "rock"):
+#         print("Player 2 wins")
+# elif(player1 == "paper" and player2 == "scissors"):
+#         print("Player 2 wins")
+# elif(player1 == "scissors" and player2 == "rock"):
+#         print("Player 2 wins")
+# elif(player1 == "scissors" and player2 == "paper"):
+#         print("Player 1 wins")
+# elif(player1 == "rock" and player2 == "rock"):
+#         print("Draw")
+# elif(player1 == "scissors" and player2 == "scissors"):
+#         print("Draw")
+# elif(player1 == "paper" and player2 == "paper"):
+#         print("Draw")
+
+# age = int(input())
+# income = int(input())
+
+# if(age >= 18):
+#     if(income >= 30000):
+#         print("Loan approved.")
+#     else:
+#         print("Not eligible: income too low.")
+# else:
+#     print("Not eligible: age requirement not met.")   
+# Write your reference solution here
+# n = int(input())
+
+# if(n>0):
+#     print("Positive")
+# elif(n >0 or n %2 == 0):
+#     print("Even")
+# elif(n > 100):
+#     print("Large")    
+# score = int(input())
+# attendance = int(input())
+
+# if(score > 90 and attendance > 90):
+#     print("Star student")
+#     print("Perfect attendance")
+# elif(score > 90 or attendance < 90):
+#     print("Star student")
+# elif(score < 90 or attendance > 90):
+#     print("Perfect attendance")
+# else:
+#     print("No badges earned.")
+# units = float(input())
+# total_price = 0.0
+# if (units > 0.0):
+#     if (units <= 100):
+#         total_price = total_price + 3 * units
+#         units = 0.0
+#     else:
+#         total_price = total_price + 300
+#         units = units - 100
+
+# if (units > 0.0):
+#     if (units <= 100):
+#         total_price = total_price + 5 * units
+#         units = 0.0
+#     else:
+#         total_price = total_price + 500
+#         units = units - 100
+
+# if (units > 0.0):
+#     if (units <= 100):
+#         total_price = total_price + 7 * units
+#         units = 0.0
+#     else:
+#         total_price = total_price + 700
+#         units = units - 100
+
+# if (units > 0.0):
+#     total_price = total_price + 10 * units
+#     units = 0.0
+
+# print(f"{total_price:.2f}")
+
+# a = int(input())
+# b= int(input())
+# c = int(input())
+# d = int(input())
+
+# if(a>b>c>d):
+#         print("Man", a)
+#         print("Min", d)
+# elif(b>c>d>a):
+#         print("Man", b)
+#         print("Min", a)
+# elif(c>d>a>b):
+#         print("Man", c)
+#         print("Min", b)
+# elif(d>a>b>c):
+#         print("Man", d)
+#         print("Min", c)
+
+price = int(input())
+quantity = int(input())
+days = int(input())
+unit = int(input())
+if(price<500):
+    print("On sale")
+    if(quantity<10):
+        print("Low stock")
+        if(days < 30):
+            print("New arrival")
+            if(unit < 1000):
+                print("Bestseller")
+            else:
+                print("No tags applicable.")
+        else:
+            print("No tags applicable.")
+    else:
+        print("No tags applicable.")
 else:
-        print("No trip")
+    print("No tags applicable.")
