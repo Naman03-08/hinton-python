@@ -124,3 +124,9 @@
 #         print("Bill: Rs.",(c))
 # elif(units < 300):
 #         print("Bill: Rs.",(d).round(d, 2))
+
+km = float(input())
+if(km <= 2):
+        print(50.00)
+elif(km >2):
+        print(50.00 + 15*(km - 2))
