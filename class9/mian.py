@@ -109,3 +109,18 @@
 #     print(float(bill*1.50))
 # else:
 #     print(float(bill*2.50))
+
+# Write your reference solution here
+units = int(input())
+a = (units*3)
+b= units*5
+c = units*7
+d = units*10
+if(units <= 100):
+        print("Bill: Rs.",a)
+elif(units <=200):
+        print("Bill: Rs.",(b))
+elif(units<=300):
+        print("Bill: Rs.",(c))
+elif(units < 300):
+        print("Bill: Rs.",(d).round(d, 2))
