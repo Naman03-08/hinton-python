@@ -130,3 +130,5 @@ if(km <= 2):
         print(50.00)
 elif(km >2):
         print(50.00 + 15*(km - 2))
+else:
+        print("No trip")
