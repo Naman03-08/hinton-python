@@ -248,23 +248,23 @@
 #         print("Man", d)
 #         print("Min", c)
 
-price = int(input())
-quantity = int(input())
-days = int(input())
-unit = int(input())
-if(price<500):
-    print("On sale")
-    if(quantity<10):
-        print("Low stock")
-        if(days < 30):
-            print("New arrival")
-            if(unit < 1000):
-                print("Bestseller")
-            else:
-                print("No tags applicable.")
-        else:
-            print("No tags applicable.")
-    else:
-        print("No tags applicable.")
-else:
-    print("No tags applicable.")
+# price = int(input())
+# quantity = int(input())
+# days = int(input())
+# unit = int(input())
+# if(price<500):
+#     print("On sale")
+#     if(quantity<10):
+#         print("Low stock")
+#         if(days < 30):
+#             print("New arrival")
+#             if(unit < 1000):
+#                 print("Bestseller")
+#             else:
+#                 print("No tags applicable.")
+#         else:
+#             print("No tags applicable.")
+#     else:
+#         print("No tags applicable.")
+# else:
+#     print("No tags applicable.")
