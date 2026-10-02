@@ -289,9 +289,9 @@
 # else:
 #         print(f"Not eligible for merit scholarship. Percentage: {percentage:.2f}%")
         
-amount = int(input())
-discount = amount - (amount/100)*10
-if(amount > 1000):
-        print(f"Discounted price: Rs.{discount:.2f}")
-else:
-        print("No discount applied.")
+# amount = int(input())
+# discount = amount - (amount/100)*10
+# if(amount > 1000):
+#         print(f"Discounted price: Rs.{discount:.2f}")
+# else:
+#         print("No discount applied.")
