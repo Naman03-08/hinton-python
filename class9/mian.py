@@ -302,3 +302,13 @@
 #         print("You can vote.")
 # else:
 #         print("You can't vote.")
+
+spend = int(input())
+if(spend < 500):
+        print("Bronze")
+elif(500<= spend < 2000):
+        print("Silver")
+elif(2000<= spend < 5000):
+        print("Gold")
+else:
+        print("Platinum")
