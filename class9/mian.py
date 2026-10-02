@@ -296,9 +296,9 @@
 # else:
 #         print("No discount applied.")
 
-age = int(input())
+# age = int(input())
 
-if(age>= 18):
-        print("You can vote.")
-else:
-        print("You can't vote.")
+# if(age>= 18):
+#         print("You can vote.")
+# else:
+#         print("You can't vote.")
