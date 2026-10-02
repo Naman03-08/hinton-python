@@ -268,3 +268,15 @@
 #         print("No tags applicable.")
 # else:
 #     print("No tags applicable.")
+
+score1 = int(input())
+score2 = int(input())
+score3 = int(input())
+
+average = (score1 + score2 + score3) / 3
+
+if average > 80 and score1 >= 60 and score2 >= 60 and score3 >= 60:
+    print("Distinction awarded.")
+else:
+    print("No distinction awarded.")
+
