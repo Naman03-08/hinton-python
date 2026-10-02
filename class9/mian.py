@@ -279,4 +279,3 @@ if average > 80 and score1 >= 60 and score2 >= 60 and score3 >= 60:
     print("Distinction awarded.")
 else:
     print("No distinction awarded.")
-
