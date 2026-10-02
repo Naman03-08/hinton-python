@@ -295,3 +295,10 @@
 #         print(f"Discounted price: Rs.{discount:.2f}")
 # else:
 #         print("No discount applied.")
+
+age = int(input())
+
+if(age>= 18):
+        print("You can vote.")
+else:
+        print("You can't vote.")
