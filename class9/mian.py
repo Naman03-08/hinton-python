@@ -288,3 +288,4 @@ if(percentage >= 90):
         print(f"Merit scholarship awarded. Percentage: {percentage:.2f}%")
 else:
         print(f"Not eligible for merit scholarship. Percentage: {percentage:.2f}%")
+        
