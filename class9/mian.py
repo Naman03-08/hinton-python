@@ -322,10 +322,10 @@
 
 # print(name, f"{total:.2f}")
 
-n = int(input())
-tags = input().split()
+# n = int(input())
+# tags = input().split()
 
-unique_tags = sorted(set(tags))
+# unique_tags = sorted(set(tags))
 
-print(*unique_tags)
+# print(*unique_tags)
 
