@@ -313,11 +313,11 @@
 # else:
 #         print("Platinum")
 
-sku, name, quantity, price = input().split(",")
+# sku, name, quantity, price = input().split(",")
 
-quantity = int(quantity)
-price = float(price)
+# quantity = int(quantity)
+# price = float(price)
 
-total = quantity * price
+# total = quantity * price
 
-print(name, f"{total:.2f}")
+# print(name, f"{total:.2f}")
