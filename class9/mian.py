@@ -346,9 +346,16 @@
 
 # while loop----------->
 
-i = 1
-while(i <= 10):
-    print(i)
-    i += 1
+# i = 1
+# while(i <= 10):
+#     print(i)
+#     i += 1
     
-print(i)
+# print(i)
+# while True:
+while True:
+    password = input("Enter password: ")
+    if password == "secret":
+        print("unlocked")
+        break
+    print("Retry the correct password")
