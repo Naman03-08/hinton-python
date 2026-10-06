@@ -344,9 +344,11 @@
 # else:
 #     print((n//2)+1)
 
-##### while loop----------->
+# while loop----------->
 
 i = 1
 while(i <= 10):
     print(i)
     i += 1
+    
+print(i)
