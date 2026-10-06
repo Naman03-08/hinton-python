@@ -353,9 +353,21 @@
     
 # print(i)
 # while True:
-while True:
-    password = input("Enter password: ")
-    if password == "secret":
-        print("unlocked")
+# while True:
+#     password = input("Enter password: ")
+#     if password == "secret":
+#         print("unlocked")
+#         break
+#     print("Retry the correct password")
+
+attempts = 1
+while attempts <= 5:
+    attempts += 1
+    pin = int(input("Enter your pin: "))
+    if attempts > 5:
+        print("Too many attempts. Access denied.")
         break
-    print("Retry the correct password")
+    if pin == 1234:
+        print("Access granted")
+        break
+    print("Incorrect pin. attempt left: " + str(5 - attempts))
