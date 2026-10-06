@@ -328,3 +328,20 @@
 # unique_tags = sorted(set(tags))
 
 # print(*unique_tags)
+
+# a, b = map(int, input().split())
+
+# c = min(a, b)
+
+# if a > b:
+#     if 2*a > b:
+#         print()
+
+# n = int(input())
+
+# if n % 2 == 0:
+#     print(-(n//2))
+# else:
+#     print((n//2)+1)
+
+##### while loop----------->
