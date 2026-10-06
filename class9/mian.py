@@ -360,12 +360,12 @@
 #         break
 #     print("Retry the correct password")
 
-attempts = 1
+attempts = 0
 while attempts <= 5:
     attempts += 1
     pin = int(input("Enter your pin: "))
-    if attempts > 5:
-        print("Too many attempts. Access denied.")
+    if attempts >= 5:
+        print("Too many wrong attempts. card blocked")
         break
     if pin == 1234:
         print("Access granted")
