@@ -29,18 +29,21 @@
 #     print("no")
     
     
-n = int(input())
-a=n
-x=0
-s=0
-while(n>0):
-    k=n%10
-    if k==0 :
-     continue
-    s=s*10+k
-    n=n//10
-while(a>0):
-    k1=a%10
-    x=x*10+k1
-    a=a//10
-print(x)
+# n = int(input())
+# a=n
+# x=0
+# s=0
+# while(n>0):
+#     k=n%10
+#     if k==0 :
+#      continue
+#     s=s*10+k
+#     n=n//10
+# while(a>0):
+#     k1=a%10
+#     x=x*10+k1
+#     a=a//10
+# print(x)
+
+# print(2**100 > 10**30)
+
