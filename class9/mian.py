@@ -46,4 +46,10 @@
 # print(x)
 
 # print(2**100 > 10**30)
+# import math
 
+# m, n, a = map(int, input().split())
+
+# t = math.ceil(n/a) * math.ceil(m/a)
+
+# print(t)
