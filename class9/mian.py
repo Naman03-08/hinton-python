@@ -55,8 +55,8 @@
 # print(t)
 
 
-a, b, c = map(int, input().split())
-b1 = (a-b+c)//2
-a1 = a-b1
-c1 = c-b1
-print(a1, b1, c1)
+# a, b, c = map(int, input().split())
+# b1 = (a-b+c)//2
+# a1 = a-b1
+# c1 = c-b1
+# print(a1, b1, c1)
