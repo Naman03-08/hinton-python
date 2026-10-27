@@ -13,10 +13,11 @@ a = int(input())
 b = int(input())
 n = 0
 c = int(input())
+d = int(input())
 count = 0
-while (n <= c):
-    if(n % a == 0)or(n % b == 0):
+while (n <= d):
+    if(n % a == 0)or(n % b == 0)or(n % c == 0):
         count += 1
     n += 1
     
-print(c-count)
+print(count)
