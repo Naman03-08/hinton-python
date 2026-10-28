@@ -1,4 +1,2 @@
-a = int(input())
-b = int(input())
-
-g = 1
+import math 
+print(math.gcd(2, 4))
