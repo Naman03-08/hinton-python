@@ -1,2 +1,2 @@
 import math 
-print(math.gcd(2, 4))
+print(math.lcm(2, 4))
