@@ -1,2 +1,8 @@
-import math 
-print(math.lcm(2, 4))
+i = 1
+while(i <= 2):
+    j = 1
+    while(j<= 3):
+        print(i * j, end="")
+        j += 1
+    print()
+    i += 1
