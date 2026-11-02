@@ -7,12 +7,24 @@
 #     print()
 #     i+=1
 
-i = 1
+# i = 1
+# n = int(input())
+# while(i<n):
+#     j = 0
+#     while(j<=i):
+#         print("*" * n)
+#         j+=1
+#     print();
+#     i+=1;
+    
 n = int(input())
-while(i<n):
-    j = 0
-    while(j<=i):
-        print("*" * n)
-        j+=1
-    print();
-    i+=1;
+i = 1
+while(i<=n):
+        print(" ", (n-1),end=" ")
+        
+        j = 1
+        while(j <= 2*i - 1):
+            print(j, end=" ")
+            j += 1
+        print()
+        i+=1;
